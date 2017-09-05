@@ -2,3 +2,7 @@ This is the test for git studying.
 I hope everything will be fine.
 Thanks.
 
+Then I say something more.
+And I will upload this text again, and commit it.
+Hope everything fine.
+
