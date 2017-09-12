@@ -1,4 +1,4 @@
-
+from __future__ import division
 from numpy import array, arange
 
 def factorial(n):
@@ -14,3 +14,16 @@ def binomial(n,k):
 	bi = factorial(n) / ( factorial(k) * factorial(n-k) )
 	bi = int(bi)
 	return bi
+
+def trapezoidal(a,b,N,f):
+	h = (b - a)/N
+	print "h=",h
+	s = 0.5 * f(a) + 0.5 * f(b)
+	for k in range(1,N):
+		s += f(a + k * h)
+		print s
+	Int = h * s
+	print Int
+	return Int
+
+	
