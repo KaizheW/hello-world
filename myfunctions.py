@@ -14,6 +14,7 @@ def binomial(n,k):
 	bi = factorial(n) / ( factorial(k) * factorial(n-k) )
 	bi = int(bi)
 	return bi
+	hhhhhhhhhhhhhhhhhhhh
 
 def trapezoidal(a,b,N,f):
 	h = (b - a)/N
