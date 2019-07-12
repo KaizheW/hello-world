@@ -2,7 +2,8 @@ from __future__ import division
 from numpy import array, arange
 
 def factorial(n):
-	f=1.0
+	# dazhutou
+	f = 1.0
 	if n == 0:
 		f = 1
 	else:
